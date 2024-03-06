@@ -1,4 +1,6 @@
-#Write a Ruby program that takes a number as input, determines whether it's even or odd, and prints the result.
+#Write a Ruby program that takes a number as input, determines
+#whether it's even or odd, and prints the result.
+
 
 def is_even_or_odd(number)
   if number % 2 == 0
@@ -9,4 +11,6 @@ def is_even_or_odd(number)
   "The number #{number} is #{result}."
 end
 
-p is_even_or_odd(3)
+print 'Input a number: '
+num = gets.chomp.to_i
+p is_even_or_odd(num)
