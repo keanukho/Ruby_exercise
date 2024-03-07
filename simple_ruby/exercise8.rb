@@ -1,15 +1,25 @@
-#Write a Ruby program that takes a base and an exponent as variables, calculates the result of raising the base to the exponent, and prints the result.
+# Write a Ruby program that takes a base and an exponent as variables,
+# calculates the result of raising the base to the exponent, and prints the result.
 
+
+#METHOD TYPE
 def power(base, exponent)
-  result = 1
-  exponent.times do
-    result *= base
-  end
+  base ** exponent
 end
 
+print 'Input a base: '
+  base = gets.chomp.to_i
+print 'Input a exponent: '
+  exponent = gets.chomp.to_i
 
-base = 2
-exponent = 2
-result = power(base, exponent)
+puts power(base, exponent)
 
-p "Result: #{result}"
+
+# #SCRIPT TYPE
+#
+# print 'Input a base: '
+#   base = gets.chomp.to_i
+# print 'Input a exponent: '
+#   exponent = gets.chomp.to_i
+#
+# puts base ** exponent
