@@ -16,7 +16,7 @@ num = gets.chomp.to_i
 print is_even_or_odd(num)
 
 
-# #SCRIPT TYPE
+#SCRIPT TYPE
 # print 'Input a number: '
 # number = gets.chomp.to_i
 #
