@@ -24,3 +24,4 @@ puts power(base, exponent)
 #   exponent = gets.chomp.to_i
 #
 # puts base ** exponent
+#
