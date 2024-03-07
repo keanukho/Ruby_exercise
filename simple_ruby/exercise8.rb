@@ -3,6 +3,7 @@
 
 
 #METHOD TYPE
+
 def power(base, exponent)
   base ** exponent
 end
@@ -16,7 +17,7 @@ puts power(base, exponent)
 
 
 # #SCRIPT TYPE
-#
+
 # print 'Input a base: '
 #   base = gets.chomp.to_i
 # print 'Input a exponent: '

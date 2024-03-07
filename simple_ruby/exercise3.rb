@@ -3,7 +3,7 @@
 
 
 #METHOD TYPE
-#
+
 def calculate_sum (x,y)
   x+y
 end
@@ -16,7 +16,7 @@ sum = calculate_sum(x, y)
 p "The sum of #{x} and #{y} is: #{sum}"
 
 # #SCRIPT TYPE
-#
+
 # print 'Input a number: '
 #   x = gets.chomp.to_i
 # print 'Input a number: '

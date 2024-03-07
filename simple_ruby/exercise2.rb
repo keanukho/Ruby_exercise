@@ -5,7 +5,7 @@
 
 
 #METHOD TYPE
-#
+
 def perform_operations(x, y)
   sum = x + y
   difference = x - y
@@ -32,7 +32,7 @@ print_results(x, y, sum, difference, product, quotient)
 
 
 # #SCRIPT TYPE
-#
+
 # print 'Input a number: '
 #   x = gets.chomp.to_i
 # print 'Input a number: '

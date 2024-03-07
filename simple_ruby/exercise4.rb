@@ -3,7 +3,7 @@
 
 
 #METHOD TYPE
-#
+
 def get_name_from_user(first_name, last_name)
   full_name = first_name + " " + last_name
   "Your full name is: #{full_name}"

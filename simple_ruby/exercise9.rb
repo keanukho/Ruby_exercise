@@ -1,7 +1,7 @@
 #Write a Ruby program that takes a year as input and checks whether it is a leap year. Print the result.
 
 #METHOD TYPE
-#
+
 # def knows_leap_year(year)
 #   if year % 400 == 0
 #     return "leap year"

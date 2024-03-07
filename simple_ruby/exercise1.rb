@@ -5,7 +5,7 @@
 
 
 #METHOD TYPE
-#
+
 def calculate_age(birth_year)
   current_year = 2024
   age = current_year - birth_year
@@ -18,7 +18,7 @@ print calculate_age(birth_year)
 
 
 # #SCRIPT TYPE
-#
+
 # print 'Enter your birth year: '
 #   birth_year = gets.chomp.to_i
 #

@@ -2,6 +2,7 @@
 #whether it's even or odd, and prints the result.
 
 #METHOD TYPE
+
 def is_even_or_odd(number)
   if number % 2 == 0
     result = "even"
@@ -17,6 +18,7 @@ print is_even_or_odd(num)
 
 
 #SCRIPT TYPE
+
 # print 'Input a number: '
 # number = gets.chomp.to_i
 #

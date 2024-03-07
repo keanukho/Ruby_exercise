@@ -2,6 +2,7 @@
 # calculates the area, and prints the result.
 
 #METHOD TYPE
+
 def calculate_area(length, width)
   area = length * width
   "The area of the rectangle with length #{length}cm and width #{width}cm is: #{area}"
@@ -15,7 +16,7 @@ p calculate_area(length, width)
 
 
 # #SCRIPT TYPE
-#
+
 # print "Input a number: "
 #   length = gets.chomp.to_i
 # print "Input a number: "
