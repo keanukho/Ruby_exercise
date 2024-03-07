@@ -1,16 +1,31 @@
 #Write a Ruby program that takes two variables as input, swaps their values, and prints the new values.
 
-def two_variables_swap(var1, var2)
-  temp = var1
-  var1 = var2
-  var2 = temp
-  puts ("#{var1} is the initial variable, while #{var2} represents the second variable at present.")
-end
+#METHOD TYPE
 
-two_variables_swap(6,7)
+# def two_variables_swap(var1, var2)
+#   temp = var1
+#   var1 = var2
+#   var2 = temp
+#   puts ("#{var1} is the initial variable, while #{var2} represents the second variable at present.")
+# end
+#
+# print "Input a variable: "
+# var1 = gets.chomp.to_i
+# print "Input a variable: "
+# var2 = gets.chomp.to_i
+#
+# two_variables_swap(var1, var2)
 
 
 #SCRIPT TYPE
-# temp = var1
-# var1 = var2
-# var2 = temp
+
+print "Input a variable: "
+  var1 = gets.chomp.to_i
+print "Input a variable: "
+  var2 = gets.chomp.to_i
+
+  temp = var1
+  var1 = var2
+  var2 = temp
+
+puts ("#{var1} is the initial variable, while #{var2} represents the second variable at present.")
