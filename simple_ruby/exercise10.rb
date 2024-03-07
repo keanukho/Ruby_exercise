@@ -8,3 +8,9 @@ def two_variables_swap(var1, var2)
 end
 
 two_variables_swap(6,7)
+
+
+#SCRIPT TYPE
+# temp = var1
+# var1 = var2
+# var2 = temp
