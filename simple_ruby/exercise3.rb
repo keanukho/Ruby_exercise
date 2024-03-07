@@ -24,4 +24,3 @@ p "The sum of #{x} and #{y} is: #{sum}"
 #
 #   sum = x+y
 # p "The sum of #{x} and #{y} is: #{sum}"
-
