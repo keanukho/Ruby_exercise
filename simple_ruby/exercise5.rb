@@ -25,3 +25,4 @@ p calculate_area(length, width)
 #   area = length * width
 #
 # puts "The area of the rectangle with length #{length}cm and width #{width}cm is: #{area}"
+#
