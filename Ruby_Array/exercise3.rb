@@ -16,9 +16,6 @@ while true
   end
 end
 
-
-
-
 new_age_group = age_group.map do |age|
   if age > 35
     "adult"

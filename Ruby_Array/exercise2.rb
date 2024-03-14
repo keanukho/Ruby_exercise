@@ -1,11 +1,14 @@
-  # Create a Ruby script that takes an array of daily temperatures.
-  # For each day, output "High" if the temperature is above 35 degrees
-  # Celsius, "Moderate" if it's between 20 and 35 degrees, and "Low" if it's below 20 degrees.
+# Jeanne Keanu Echevarria
+# Class Batch_6
+# Create a Ruby script that takes an array of daily temperatures.
+# For each day, output "High" if the temperature is above 35 degrees
+# Celsius, "Moderate" if it's between 20 and 35 degrees, and "Low" if it's below 20 degrees.
 
-  #array of temp.
-  # output "high" if the temp is above 35 deg
-  # "moderate" if the temp is 20 >= <= 35
-  # "low" if its below 20
+#array of temp.
+# output "high" if the temp is above 35 deg
+# "moderate" if the temp is 20 >= <= 35
+# "low" if its below 20
+
 
   daily_temperature = []
   while true
