@@ -4,17 +4,30 @@
 # individuals fall into each age group: "Child" (12 or younger), "Teenager" (13 to 19), and "Adult" (20 or older).
 
 
+age_group = []
+while true
+  print'(press x to stop inputting score)Input age: '
+  input = gets.chomp
 
-
-
-
-
-new_daily_temperature = daily_temperature.map do |temperature|
-  if temperature > 35
-    "High"
-  elsif temperature > 20 && temperature <= 35
-    "Moderate"
+  if input == 'x'
+    break
   else
-    "Low"
+    age_group << input.to_i
   end
 end
+
+
+
+
+new_age_group = age_group.map do |age|
+  if age > 35
+    "adult"
+  elsif age > 13 && age <= 19
+    "Teenager"
+  else
+    "Child"
+  end
+end
+
+
+p new_age_group
