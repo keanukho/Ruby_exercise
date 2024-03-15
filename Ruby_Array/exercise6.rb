@@ -5,7 +5,7 @@
 
 product_quantities = []
 while true
-  print'(press x to stop inputting score)Input temperature in Celsius: '
+  print'(press x to stop inputting score)Input number stock: '
   input = gets.chomp
 
   if input == 'x'
