@@ -80,9 +80,12 @@ class Car
   end
 
   def decrease_speed
-    @speed = [@speed - 1, 0].max
+    @speed -= 1
+    @speed = 0 if @speed < 0
   end
 end
+
+
 
 
 cars = [
@@ -94,7 +97,7 @@ cars = [
   Car.new('red', 'BMW', '2011', 'class 3', 'OPQ131'),
   Car.new('gray', 'Ford', '2020', 'class 1', 'RST415'),
   Car.new('white', 'KIA', '2024', 'class 2', 'UVW161'),
-  Car.new('brown', 'Hyundai', '2015', 'class 3', 'XYZ718'),
+  Car.new('blue', 'Hyundai', '2015', 'class 3', 'XYZ718'),
   Car.new('purple', 'Honda', '2009', 'class 1', 'KIA666'),
 ]
 
@@ -112,51 +115,44 @@ cars = [
 # puts "-----------------------"
 
 
-#1. filter the array of car class and return cars with class type 1
+# #1. filter the array of car class and return cars with class type 1
+#
+# class_cars = cars.select { |car| car.car_type == 'class 3' }
+# class_cars.each do |car|
+#   puts "Car details:"
+#   puts "Color: #{car.color}"
+#   puts "Model: #{car.model}"
+#   puts "Year: #{car.year}"
+#   puts "Car type: #{car.car_type}"
+#   puts "Plate number: #{car.plate_number}"
+#   puts "-----------------------"
+# end
+#
+# # 2. Print plate_number/
+# cars.each { |car| puts car.plate_number }
+#
+# # 3. Return most common color
+# most_common_color = cars.max_by { |car| cars.count(car) }.color
+# puts "The most common color is #{most_common_color}"
 
-class_cars = cars.select { |car| car.car_type == 'class 3' }
-class_cars.each do |car|
-  puts "Car details:"
-  puts "Color: #{car.color}"
-  puts "Model: #{car.model}"
-  puts "Year: #{car.year}"
-  puts "Car type: #{car.car_type}"
-  puts "Plate number: #{car.plate_number}"
-  puts "-----------------------"
+# 4. modify the decrease speed to avoid negative number
+def decrease_speed
+    return if speed <= 0
+  else
+    @speed -= 1
+  end
 end
 
-# 2. Print plate_number/
-cars.each { |car| puts car.plate_number }
+cars[0].decrease_speed
+cars[0].decrease_speed
+cars[0].decrease_speed
 
-# 3. Return most common color
-# 4. modify the decrease speed to avoid negative number
 # 5. create a script that will change the speed of the class (make it random)
+# cars.each { |car| car.increase_speed(rand(1..10)) }
+
 # 6. Modify the color of each car randomly (loop)
+# colors = ['red', 'blue', 'green', 'yellow', 'black', 'white', 'gray', 'brown', 'purple']
+# cars.each { |car| car.color = colors.sample }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# p toyota.color
-# p toyota.model
-# p toyota.year
-# toyota.serial_number ='qwerqwerqwer'
-# p toyota.details
-
-
-
-
-
-
+2
